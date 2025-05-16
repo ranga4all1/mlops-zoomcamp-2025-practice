@@ -82,6 +82,8 @@ What's the RMSE on train?
 * 11.64
 * 16.64
 
+**Answer: `7.64`**
+
 
 ## Q6. Evaluating the model
 
@@ -93,6 +95,9 @@ What's the RMSE on validation?
 * 7.81
 * 11.81
 * 16.81
+
+**Answer: `7.81`**
+
 
 ## Submit the results
 
