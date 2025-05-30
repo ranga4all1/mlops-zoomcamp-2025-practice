@@ -11,13 +11,27 @@ mlflow --version
 
 ## Data prep
 ```
-cd homework-scripts
-python preprocess_data.py --raw_data_path ../TAXI_DATA_FOLDER --dest_path ../output
+python homework-scripts/preprocess_data.py --raw_data_path ./TAXI_DATA_FOLDER --dest_path ./output
 
-cd ../output
-ls -l
+ls -l output/
 ```
 
+## Model training
 ```
-mlflow ui --backend-store-uri sqlite:///mlflow.db 
+python homework-scripts/train.py
+
+mlflow ui
 ```
+
+## Local tracking server
+```
+mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root artifacts
+
+python homework-scripts/train.py
+```
+
+## Tune model hyperparameters
+```
+python homework-scripts/hpo.py
+```
+

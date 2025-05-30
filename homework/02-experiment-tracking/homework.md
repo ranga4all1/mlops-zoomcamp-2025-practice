@@ -74,6 +74,8 @@ What is the value of the `min_samples_split` parameter:
 * 8
 * 10
 
+**Answer: `2`**
+
 
 ## Q4. Launch the tracking server locally
 
@@ -92,6 +94,8 @@ In addition to `backend-store-uri`, what else do you need to pass to properly co
 * `serve-artifacts`
 * `artifacts-only`
 * `artifacts-destination`
+
+**Answer: `default-artifact-root`**
 
 
 ## Q5. Tune model hyperparameters
@@ -116,6 +120,8 @@ What's the best validation RMSE that you got?
 * 5.335
 * 5.818
 * 6.336
+
+**Answer: `5.335`**
 
 
 ## Q6. Promote the best model to the model registry
