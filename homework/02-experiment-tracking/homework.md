@@ -3,6 +3,7 @@
 The goal of this homework is to get familiar with MLflow, the tool for experiment tracking and 
 model management.
 
+**Note:** Please refer to `commands.md` to see commands used to complete tasks and find answers.
 
 ## Q1. Install MLflow
 
@@ -142,6 +143,8 @@ What is the test RMSE of the best model?
 * 5.567
 * 6.061
 * 6.568
+
+**Answer: `5.567`**
 
 
 ## Submit the results

@@ -35,3 +35,7 @@ python homework-scripts/train.py
 python homework-scripts/hpo.py
 ```
 
+## Promote the best model to the model registry
+```
+python homework-scripts/register_model.py
+```
