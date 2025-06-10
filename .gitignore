@@ -180,3 +180,5 @@ mlflow.db
 artifacts
 03-orchestration/mlartifacts
 03-orchestration/models
+homework/03-orchestration/models
+homework/03-orchestration/artifacts
