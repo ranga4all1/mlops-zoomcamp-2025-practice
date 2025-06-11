@@ -18,7 +18,7 @@ What's the name of the orchestrator you chose?
 
 What's the version of the orchestrator? 
 
-**Answer: ``**
+**Answer: `v0.9.76`**
 
 
 ## Question 3. Creating a pipeline
