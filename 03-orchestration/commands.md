@@ -20,3 +20,14 @@ mlflow.set_experiment("nyc-taxi-experiment")
 ```python
 URL = 'https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2021-01.parquet'
 ```
+
+## Mage Orchestrator
+
+```python
+pip install mage-ai
+mage start my_ml_pipeline
+cd my_ml_pipeline
+```
+
+#### Mage URL: http://localhost:6789
+

@@ -178,6 +178,7 @@ cython_debug/
 mlruns
 mlflow.db
 artifacts
+my_ml_pipeline
 03-orchestration/mlartifacts
 03-orchestration/models
 homework/03-orchestration/models
